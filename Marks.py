@@ -1,4 +1,4 @@
-# Author:  Cheryl Dugas/Joseph Marks
+# Author:  Joseph Marks
 
 #  youtube.py searches YouTube for videos matching a search term and max results
 
