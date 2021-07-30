@@ -5,7 +5,7 @@
 # to look up until the user types "Stop".
 # The program will output information on the twitter profile retrieved, including The
 # user screenname, username, user ID, user description, location, number of friends,
-# and number of followers. Additionally, the program will print to the scrrn the screennames
+# and number of followers. Additionally, the program will print to the screen the screennames
 # of the five most recent followers of the user account, and the most 5 recent tweets.
 
 # To run from terminal window:   python3 Marks.py
@@ -14,8 +14,8 @@
 # Please ensure these external packages have been downloaded prior to running program
 # Installing external packages can be accomplished by typing in terminal: pip install [package name]
 
-# Tweepy used to work with the Twitter API
-# Textwrap used to format my output in a more professional way
+# Tweepy is used to work with the Twitter API
+# Textwrap is used to format my output in a more professional way
 import tweepy
 import textwrap
 
@@ -54,13 +54,6 @@ def getUserInformation(userInput):
     print("twitter_user followers_count: ", twitter_user.followers_count)
     print("\n")
 
-
-    # Determine an Account’s Friends
-    friends = []
-
-
-    # Creating a Cursor
-    #cursor = tweepy.Cursor(api.followers, screen_name=userInput)
 
     print("************************************************************************")
     print("\nMost recent 5 followers of {}: ".format(twitter_user.name))
