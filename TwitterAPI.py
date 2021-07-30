@@ -54,7 +54,6 @@ def getUserInformation(userInput):
     print("twitter_user followers_count: ", twitter_user.followers_count)
     print("\n")
 
-
     print("************************************************************************")
     print("\nMost recent 5 followers of {}: ".format(twitter_user.name))
     print("************************************************************************")
